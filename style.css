@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    background-color: #E7F6F2;
+}
+
+
+.container {
+    height: 100vh;
+    width: 100%;
+
+
+}
+
+.container nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: #082032;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 10px 25px;
+}
+
+.logo span {
+    color: #395B64;
+}
+
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: #082032;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #395B64;
+    transition: .4s;
+
+}
+
+.home h3 {
+    padding-top: 200px;
+    text-align: left;
+    font-size: 40px;
+    padding-left: 10%;
+    color: #395B64;
+}
+
+.home h3 span {
+    font-size: 70px;
+    color: #082032
+}
+
+.home img {
+    width: 600px;
+    padding-right: 8%;
+    padding-top: 40px;
+    float: right;
+
+}
+.home{
+    margin-bottom: 280px;
+}
+
+.profil img{
+width: 450px;
+padding-left: 8%;
+padding-top: 40px;
+padding-bottom: 20px;
+
+}
+#isi h1{
+    font-size: 60px;
+    color: #082032;
+    text-align: left;
+}
+#isi h3{
+    color: #395B64;
+    text-align: left;
+}
+#isi h3 span{
+    color: #082032;
+    font-weight: bold;
+}
+
+#isi p{
+    text-align: justify;
+    float: right;
+}
+#isi{
+    float: right;
+    padding-top: 150px;
+    padding-left: 3px;
+    padding-right: 10%;
+}
+.profil{
+    
+    margin-bottom: 200px;
+}
+.about{
+    padding-bottom: 320px;
+}
+.about img{
+    float: right;
+    width: 600px;
+    padding-bottom: 100px;
+    padding-right: 8%;
+}
+#isiabout{
+    padding-left: 10%;
+    padding-top: 100px;
+}
+#isiabout h1{
+    font-size: 60px;
+    color: #082032;
+    text-align: left;
+}
+
+.kontak{
+
+float: left;
+margin-left: 8%;}
+
+.kontak p i{
+    color: #082032;
+   
+    
+}
+.icon{
+    margin-top: 15px;
+}
+.icon a{
+    text-decoration: none;
+    font-size: 25px; 
+    margin-right: 15px;
+    color: #082032;
+    display: inline-block;
+}
+
+.icon a:hover{
+    color: #395B64;
+}
+
